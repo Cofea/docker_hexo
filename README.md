@@ -10,6 +10,7 @@ themes.sh             #在docker 容器中修改主题，可以更改主题
 * 目前暂时为在docker容器中 使用 hexo new page "文章名"
 ```shell
 docker exec -it hexo /bin/bash   #进入hexo容器
+hexo new page "文章名"
 ... #后续操作
 ```
 * 也可以直接在映射目录下添加和修改
@@ -20,16 +21,16 @@ cd /root/blog/source
 
 
 **主题配置**
-* 默认使用next主题，配置文件请参考 next的配置
+* 默认使用nexT主题，配置文件请参考 nexT的配置:https://github.com/iissnan/hexo-theme-next
 
 
 **可能存在的问题**
-* 博客渲染问题 
+- [ ]博客渲染问题 
 
 
 **to do**
-* 添加自动更新文章
-* 添加nginx 配置
+- [ ]添加自动更新文章
+- [ ]添加nginx 配置
 
 
 
