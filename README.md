@@ -14,6 +14,10 @@ docker exec -it hexo /bin/bash   #进入hexo容器
 ```
 * 也可以直接在映射目录下添加和修改
 
+```shell
+cd /root/blog/source
+```
+
 
 **主题配置**
 * 默认使用next主题，配置文件请参考 next的配置
@@ -23,8 +27,9 @@ docker exec -it hexo /bin/bash   #进入hexo容器
 * 博客渲染问题 
 
 
-** to do**
+**to do**
 * 添加自动更新文章
+* 添加nginx 配置
 
 
 
