@@ -6,6 +6,13 @@ start.sh              #启动容器
 themes.sh             #在docker 容器中修改主题，可以更改主题
 ```
 
+**使用方法**
+```shell
+git clone https://github.com/Cofea/docker_hexo.git 
+cd docker_hexo && sh start.sh
+```
+
+
 **文章更新**
 * 目前暂时为在docker容器中 使用 hexo new page "文章名"
 ```shell
