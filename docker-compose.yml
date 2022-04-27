@@ -1,6 +1,6 @@
 version: '2'
 services:
-  hexo: # 容器名,改
+  hexo: # 容器名,可根据需要修改
     container_name: hexo
     restart: always # 启动方式
     image: spurin/hexo # 镜像勿动
