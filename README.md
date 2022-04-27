@@ -22,7 +22,7 @@ cd /root/blog/source
 
 **主题配置**
 * 默认使用nexT主题，配置文件请参考 nexT的配置:https://github.com/iissnan/hexo-theme-next
-
+* 更多主题：https://hexo.io/themes/
 
 **可能存在的问题**
 - [ ]博客渲染问题 
